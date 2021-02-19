@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: randomtest
+  description: test
+  annotations: 
+    github.com/project-slug: mkorbi/test-backstage
+    backstage.io/source-ref: "https://github.com/mkorbi/test-backstage"
+    backstage.io/techdocs-ref: url:https://github.com/mkorbi/test-backstage
+    backstage.io/github-actions-id: https://github.com/mkorbi/test-backstage
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Max
